@@ -11,25 +11,25 @@ public class Car {
 			System.out.println("Vehicle Type: Car");
 		   }
 		}
-		class Maruti extends Car{
-		   public Maruti()
+		class Honda extends Car{
+		   public Honda()
 		   {
-			System.out.println("Class Maruti");
+			System.out.println("Class Honda");
 		   }
 		   public void brand()
 		   {
-			System.out.println("Brand: Maruti");
+			System.out.println("Brand: Honda");
 		   }
 		   public void speed()
 		   {
 			System.out.println("Max: 90Kmph");
 		   }
 		}
-	 class Maruti800 extends Maruti{
+	 class Honda800 extends Honda{
 
-		   public Maruti800()
+		   public Honda800()
 		   {
-			System.out.println("Maruti Model: 800");
+			System.out.println("Honda Model: 800");
 		   }
 		   public void speed()
 		   {
@@ -37,7 +37,7 @@ public class Car {
 		   }
 		   public static void main(String args[])
 		   {
-			 Maruti800 obj=new Maruti800();
+			 Honda800 obj=new Honda800();
 			 obj.vehicleType();
 			 obj.brand();
 			 obj.speed();
